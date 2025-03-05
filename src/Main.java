@@ -36,8 +36,8 @@ public class Main {
         printFigures(figures);
         //squareSum(figures);
         System.out.println("Total square : "+ squareSum(figures));/* печатаем сумму площадей*/
-       
-        //System.out.println("Есть фигура " +findObject+"в списке  " + figures.contains(findObject));}
+
+
         ifThereIsAFigureInTheList(findObject, figures);
         //listOfFiguresOfNeedSquare(figures, squareLevel);
         Scanner scanner=new Scanner(System.in);
