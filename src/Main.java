@@ -39,7 +39,7 @@ public class Main {
 
 
         ifThereIsAFigureInTheList(findObject, figures);
-        //listOfFiguresOfNeedSquare(figures, squareLevel);
+
         Scanner scanner=new Scanner(System.in);
         System.out.println("Input the minimal square:");
         squareLevel= scanner.nextDouble();
